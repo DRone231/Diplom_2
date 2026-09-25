@@ -3,6 +3,7 @@ package client;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import io.qameta.allure.Step;
 
 import static io.restassured.RestAssured.given;
 
@@ -17,7 +18,7 @@ public class StellarBurgersClient {
                 .filter(new AllureRestAssured());
     }
 
-    // Создание пользователя
+    @Step("Создание пользователя: POST /api/auth/register")
     public Response createUser(Object body) {
         return spec()
                 .body(body)
@@ -25,7 +26,7 @@ public class StellarBurgersClient {
                 .post("/api/auth/register");
     }
 
-    // Логин пользователя
+    @Step("Логин пользователя: POST /api/auth/login")
     public Response loginUser(Object body) {
         return spec()
                 .body(body)
@@ -33,7 +34,7 @@ public class StellarBurgersClient {
                 .post("/api/auth/login");
     }
 
-    // Удаление пользователя
+    @Step("Удаление пользователя: DELETE /api/auth/user")
     public void deleteUser(String accessToken) {
         spec()
                 .header("Authorization", accessToken)
@@ -41,15 +42,16 @@ public class StellarBurgersClient {
                 .delete("/api/auth/user");
     }
 
-    // Получение списка ингредиентов
+    @Step("Получение списка ингредиентов: GET /api/ingredients")
     public Response getIngredients() {
         return spec().when().get("/api/ingredients");
     }
 
-    // Создание заказа
+    @Step("Создание заказа: POST /api/orders (с токеном={hasToken})")
     public Response createOrder(Object body, String accessToken) {
         RequestSpecification request = spec().body(body);
-        if (accessToken != null && !accessToken.isEmpty()) {
+        boolean hasToken = accessToken != null && !accessToken.isEmpty();
+        if (hasToken) {
             request.header("Authorization", accessToken);
         }
         return request.when().post("/api/orders");

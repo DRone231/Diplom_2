@@ -56,10 +56,36 @@ public class UserCreateTest {
     }
 
     @Test
-    @DisplayName("Создание пользователя без одного обязательного поля")
+    @DisplayName("Создание пользователя без email")
     @Description("Проверка, что нельзя создать пользователя без email")
     public void createUserWithoutEmail() {
         User user = new User(null, "password123", "NoEmailUser");
+        Response response = client.createUser(user);
+
+        response.then()
+                .statusCode(403)
+                .body("success", is(false))
+                .body("message", equalTo("Email, password and name are required fields"));
+    }
+
+    @Test
+    @DisplayName("Создание пользователя без password")
+    @Description("Проверка, что нельзя создать пользователя без password")
+    public void createUserWithoutPassword() {
+        User user = new User("no-pass@yandex.ru", null, "NoPassUser");
+        Response response = client.createUser(user);
+
+        response.then()
+                .statusCode(403)
+                .body("success", is(false))
+                .body("message", equalTo("Email, password and name are required fields"));
+    }
+
+    @Test
+    @DisplayName("Создание пользователя без name")
+    @Description("Проверка, что нельзя создать пользователя без name")
+    public void createUserWithoutName() {
+        User user = new User("no-name@yandex.ru", "password123", null);
         Response response = client.createUser(user);
 
         response.then()

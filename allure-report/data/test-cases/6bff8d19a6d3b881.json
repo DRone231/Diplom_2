@@ -1,0 +1,81 @@
+{
+  "uid" : "6bff8d19a6d3b881",
+  "name" : "Создание пользователя без password",
+  "fullName" : "tests.UserCreateTest.createUserWithoutPassword",
+  "historyId" : "5011332ea91d2a0ad0c3723b48e756b9",
+  "time" : {
+    "start" : 1790373534690,
+    "stop" : 1790373534757,
+    "duration" : 67
+  },
+  "description" : "Проверка, что нельзя создать пользователя без password",
+  "descriptionHtml" : "<p>Проверка, что нельзя создать пользователя без password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что нельзя создать пользователя без password",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "94b231903a54d319",
+      "name" : "Request",
+      "source" : "94b231903a54d319.html",
+      "type" : "text/html",
+      "size" : 674
+    }, {
+      "uid" : "d96bae7c96574577",
+      "name" : "HTTP/1.1 403 Forbidden",
+      "source" : "d96bae7c96574577.html",
+      "type" : "text/html",
+      "size" : 663
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.UserCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUserWithoutPassword"
+  }, {
+    "name" : "suite",
+    "value" : "tests.UserCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GB3LVKE"
+  }, {
+    "name" : "thread",
+    "value" : "36492@DESKTOP-GB3LVKE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6bff8d19a6d3b881.json",
+  "parameterValues" : [ ]
+}
