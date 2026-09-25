@@ -1,0 +1,81 @@
+{
+  "uid" : "12fba246854027fe",
+  "name" : "Создание пользователя без email",
+  "fullName" : "tests.UserCreateTest.createUserWithoutEmail",
+  "historyId" : "cdb9c1c24ef1b5580c52fc521c60eac2",
+  "time" : {
+    "start" : 1790373534834,
+    "stop" : 1790373534891,
+    "duration" : 57
+  },
+  "description" : "Проверка, что нельзя создать пользователя без email",
+  "descriptionHtml" : "<p>Проверка, что нельзя создать пользователя без email</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что нельзя создать пользователя без email",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5535b09a8878de45",
+      "name" : "Request",
+      "source" : "5535b09a8878de45.html",
+      "type" : "text/html",
+      "size" : 670
+    }, {
+      "uid" : "85cb8e1f7d0d4f87",
+      "name" : "HTTP/1.1 403 Forbidden",
+      "source" : "85cb8e1f7d0d4f87.html",
+      "type" : "text/html",
+      "size" : 663
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.UserCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUserWithoutEmail"
+  }, {
+    "name" : "suite",
+    "value" : "tests.UserCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GB3LVKE"
+  }, {
+    "name" : "thread",
+    "value" : "36492@DESKTOP-GB3LVKE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12fba246854027fe.json",
+  "parameterValues" : [ ]
+}

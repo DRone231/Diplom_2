@@ -1,0 +1,102 @@
+{
+  "uid" : "4a62e1ad44bf05b9",
+  "name" : "Вход с неверным паролем",
+  "fullName" : "tests.UserLoginTest.loginWithWrongPassword",
+  "historyId" : "c145a590e9978d656b9240bb60411efc",
+  "time" : {
+    "start" : 1790373535810,
+    "stop" : 1790373536815,
+    "duration" : 1005
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d5a7c979271751d3",
+      "name" : "Request",
+      "source" : "d5a7c979271751d3.html",
+      "type" : "text/html",
+      "size" : 788
+    }, {
+      "uid" : "b2a5031f4abe6121",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "b2a5031f4abe6121.html",
+      "type" : "text/html",
+      "size" : 1287
+    }, {
+      "uid" : "fe584a44b7a5215f",
+      "name" : "Request",
+      "source" : "fe584a44b7a5215f.html",
+      "type" : "text/html",
+      "size" : 800
+    }, {
+      "uid" : "ca9b777d18cd4d8",
+      "name" : "HTTP/1.1 401 Unauthorized",
+      "source" : "ca9b777d18cd4d8.html",
+      "type" : "text/html",
+      "size" : 650
+    }, {
+      "uid" : "560924cc63a5fcc2",
+      "name" : "Request",
+      "source" : "560924cc63a5fcc2.html",
+      "type" : "text/html",
+      "size" : 799
+    }, {
+      "uid" : "aeaae7bef2fdb753",
+      "name" : "HTTP/1.1 202 Accepted",
+      "source" : "aeaae7bef2fdb753.html",
+      "type" : "text/html",
+      "size" : 643
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.UserLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithWrongPassword"
+  }, {
+    "name" : "suite",
+    "value" : "tests.UserLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GB3LVKE"
+  }, {
+    "name" : "thread",
+    "value" : "36492@DESKTOP-GB3LVKE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a62e1ad44bf05b9.json",
+  "parameterValues" : [ ]
+}

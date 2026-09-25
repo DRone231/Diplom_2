@@ -1,0 +1,131 @@
+[ {
+  "uid" : "2037a218907aedaa",
+  "name" : "Создание пользователя, который уже зарегистрирован",
+  "time" : {
+    "start" : 1790373534893,
+    "stop" : 1790373535808,
+    "duration" : 915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a62e1ad44bf05b9",
+  "name" : "Вход с неверным паролем",
+  "time" : {
+    "start" : 1790373535810,
+    "stop" : 1790373536815,
+    "duration" : 1005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bff8d19a6d3b881",
+  "name" : "Создание пользователя без password",
+  "time" : {
+    "start" : 1790373534690,
+    "stop" : 1790373534757,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c390fcbeb6a5123",
+  "name" : "Создание заказа с авторизацией",
+  "time" : {
+    "start" : 1790373519313,
+    "stop" : 1790373525800,
+    "duration" : 6487
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27a644286202f711",
+  "name" : "Вход под существующим пользователем",
+  "time" : {
+    "start" : 1790373537744,
+    "stop" : 1790373538750,
+    "duration" : 1006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39de78cc98ae3df1",
+  "name" : "Создание пользователя без name",
+  "time" : {
+    "start" : 1790373534759,
+    "stop" : 1790373534822,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6987c09a6a08aef6",
+  "name" : "Создание заказа без ингредиентов",
+  "time" : {
+    "start" : 1790373532785,
+    "stop" : 1790373533794,
+    "duration" : 1009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1044366364a1781",
+  "name" : "Создание заказа без авторизации",
+  "time" : {
+    "start" : 1790373526964,
+    "stop" : 1790373527993,
+    "duration" : 1029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12fba246854027fe",
+  "name" : "Создание пользователя без email",
+  "time" : {
+    "start" : 1790373534834,
+    "stop" : 1790373534891,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb10e39e44c857ab",
+  "name" : "Создание заказа с ингредиентами",
+  "time" : {
+    "start" : 1790373527994,
+    "stop" : 1790373532783,
+    "duration" : 4789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e247f6dc891f0097",
+  "name" : "Создание заказа с неверным хешем ингредиентов",
+  "time" : {
+    "start" : 1790373525840,
+    "stop" : 1790373526957,
+    "duration" : 1117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "176cf022dcc5250c",
+  "name" : "Вход с неверным email",
+  "time" : {
+    "start" : 1790373536816,
+    "stop" : 1790373537742,
+    "duration" : 926
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "394e561056712e4f",
+  "name" : "Создание уникального пользователя",
+  "time" : {
+    "start" : 1790373533798,
+    "stop" : 1790373534688,
+    "duration" : 890
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

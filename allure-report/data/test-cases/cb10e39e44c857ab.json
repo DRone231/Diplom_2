@@ -1,0 +1,114 @@
+{
+  "uid" : "cb10e39e44c857ab",
+  "name" : "Создание заказа с ингредиентами",
+  "fullName" : "tests.OrderCreateTest.createOrderWithIngredients",
+  "historyId" : "33173438c6f70ceb331389b42957ddd0",
+  "time" : {
+    "start" : 1790373527994,
+    "stop" : 1790373532783,
+    "duration" : 4789
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9edfe86cdbba40c7",
+      "name" : "Request",
+      "source" : "9edfe86cdbba40c7.html",
+      "type" : "text/html",
+      "size" : 788
+    }, {
+      "uid" : "ee1b37e46f4a238a",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "ee1b37e46f4a238a.html",
+      "type" : "text/html",
+      "size" : 1287
+    }, {
+      "uid" : "173d7635a75bc12b",
+      "name" : "Request",
+      "source" : "173d7635a75bc12b.html",
+      "type" : "text/html",
+      "size" : 377
+    }, {
+      "uid" : "8c4b9e3023c28f8a",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "8c4b9e3023c28f8a.html",
+      "type" : "text/html",
+      "size" : 12035
+    }, {
+      "uid" : "fb6f468f240c4af6",
+      "name" : "Request",
+      "source" : "fb6f468f240c4af6.html",
+      "type" : "text/html",
+      "size" : 1230
+    }, {
+      "uid" : "9a1b9a482244de2",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "9a1b9a482244de2.html",
+      "type" : "text/html",
+      "size" : 4037
+    }, {
+      "uid" : "b20c6330f0b1f0bc",
+      "name" : "Request",
+      "source" : "b20c6330f0b1f0bc.html",
+      "type" : "text/html",
+      "size" : 799
+    }, {
+      "uid" : "c9c1c947c240c4cf",
+      "name" : "HTTP/1.1 202 Accepted",
+      "source" : "c9c1c947c240c4cf.html",
+      "type" : "text/html",
+      "size" : 643
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.OrderCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "tests.OrderCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GB3LVKE"
+  }, {
+    "name" : "thread",
+    "value" : "36492@DESKTOP-GB3LVKE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb10e39e44c857ab.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,114 @@
+{
+  "uid" : "8c390fcbeb6a5123",
+  "name" : "Создание заказа с авторизацией",
+  "fullName" : "tests.OrderCreateTest.createOrderWithAuth",
+  "historyId" : "2e76924b760f10aabbaff80372644537",
+  "time" : {
+    "start" : 1790373519313,
+    "stop" : 1790373525800,
+    "duration" : 6487
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "23e9089f826a3ddf",
+      "name" : "Request",
+      "source" : "23e9089f826a3ddf.html",
+      "type" : "text/html",
+      "size" : 788
+    }, {
+      "uid" : "4da111a8ab385948",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "4da111a8ab385948.html",
+      "type" : "text/html",
+      "size" : 1287
+    }, {
+      "uid" : "d0b95e4fdb773e66",
+      "name" : "Request",
+      "source" : "d0b95e4fdb773e66.html",
+      "type" : "text/html",
+      "size" : 377
+    }, {
+      "uid" : "65499e52bf5fa5ef",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "65499e52bf5fa5ef.html",
+      "type" : "text/html",
+      "size" : 12035
+    }, {
+      "uid" : "8db6c372671b6ebf",
+      "name" : "Request",
+      "source" : "8db6c372671b6ebf.html",
+      "type" : "text/html",
+      "size" : 1138
+    }, {
+      "uid" : "ee83f6a2f5649eee",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "ee83f6a2f5649eee.html",
+      "type" : "text/html",
+      "size" : 3123
+    }, {
+      "uid" : "14e3c7c27da1db1e",
+      "name" : "Request",
+      "source" : "14e3c7c27da1db1e.html",
+      "type" : "text/html",
+      "size" : 799
+    }, {
+      "uid" : "fd99a80d1449e3e0",
+      "name" : "HTTP/1.1 202 Accepted",
+      "source" : "fd99a80d1449e3e0.html",
+      "type" : "text/html",
+      "size" : 643
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.OrderCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithAuth"
+  }, {
+    "name" : "suite",
+    "value" : "tests.OrderCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GB3LVKE"
+  }, {
+    "name" : "thread",
+    "value" : "36492@DESKTOP-GB3LVKE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c390fcbeb6a5123.json",
+  "parameterValues" : [ ]
+}
